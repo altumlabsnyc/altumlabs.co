@@ -41,6 +41,7 @@
                 <a class="nav-link link text-primary display-4" href="about.html">ABOUT</a>
               </li>
               <li class="nav-item">
+
                 <a class="nav-link link text-primary display-4" href="#contact">CONTACT</a>
               </li>
               <li class="nav-item">
@@ -171,38 +172,38 @@
               <div class="row align-items-stretch no-gutters contact-wrap">
                 <div class="col-md-6">
                   <div class="form h-100">
-                    <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                    <form class="mb-5" action = "https://formspree.io/f/mdorkapg" method="post" id="contactForm" name="contactForm">
                       <div class="row">
                         <p class="mbr-text mbr-fonts-style display-7" style = "color: #457F6C;"> CONTACT US </p>
                         <p class="mbr-text mbr-fonts-style display-7"> Need help with something? Want a demo? Get in touch with us and we’ll get back to you. </p>
                         <div class="col-md-6 form-group mb-5">
-                          <input type="text" class="form-control" name="name" id="name" placeholder="First name">
+                          <input type="text" class="form-control" name="name" id="name" placeholder="First name" required>
                         </div>
                         <div class="col-md-6 form-group mb-5">
-                          <input type="text" class="form-control" name="email" id="email"  placeholder="Last name">
+                          <input type="text" class="form-control" name="email" id="email"  placeholder="Last name" required>
                         </div>
                       </div>
         
                       <div class="row">
                         <div class="col-md-6 form-group mb-5">
-                          <input type="text" class="form-control" name="company" id="company"  placeholder="Job title">
+                          <input type="text" class="form-control" name="company" id="company"  placeholder="Job title" required>
                         </div>
                         <div class="col-md-6 form-group mb-5">
-                          <input type="text" class="form-control" name="company" id="company"  placeholder="Work email">
+                          <input type="text" class="form-control" name="company" id="company"  placeholder="Work email" required>
                         </div>
                       </div>
         
                       <div class="row">
                         <div class="col-md-12 form-group mb-5">
-                          <textarea class="form-control" name="message" id="message" cols="30" rows="4"  placeholder="Write your message"></textarea>
+                          <textarea class="form-control" name="message" id="message" cols="30" rows="4"  placeholder="Write your message" required></textarea>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-md-12 form-group">
                           <div class="mbr-section-btn">
-                            <a class="btn btn-primary display-4" href="">
+                            <button class="btn btn-primary display-4" type = "submit">
                               <strong>Send Message</strong>
-                            </a>
+                            </button>
                           </div>
                         </div>
                       </div>
