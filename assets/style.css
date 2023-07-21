@@ -1031,18 +1031,18 @@ blockquote {
   }
 }
 
-/* The container for the image and the overlay */
+/* image and the overlay */
 .custom-image-container {
   position: relative;
 }
 
-/* The image will fill the entire horizontal width of the screen */
+/* entire horizontal width */
 .custom-image {
   width: 100vw;
   height: auto;
 }
 
-/* The overlay that contains the text and button */
+/* text and button */
 .custom-overlay {
   position: absolute;
   top: 0;
@@ -1054,17 +1054,16 @@ blockquote {
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0);
-  /* Adjust the transparency here */
+  /* adjust the transparency */
   color: white;
   font-family: 'Poppins';
   font-size: 24px;
   padding: 20px;
 }
 
-/* Style the button */
+/* style the button */
 .custom-overlay .custom-button {
   background-color: #000000;
-  /* Adjust the button color */
   color: white;
   padding: 20px 40px;
   border: none;
