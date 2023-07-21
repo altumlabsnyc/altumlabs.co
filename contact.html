@@ -7,6 +7,9 @@
     <link rel="shortcut icon" href="./assets/img/logowhite.png" type="image/x-icon">
     <meta name="description" content="">
     <title>Contact | Altum Labs</title>
+    <!-- Contact -->
+    <link rel="stylesheet" href="./assets/contact/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/contact/style.css">
     <!-- Style Sheets -->
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/bootstrap.min.css">
@@ -35,7 +38,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="navbar-brand d-none d-lg-flex">
                         <span class="navbar-caption-wrap">
-                            <img style="height: 35%; width: 35%;" src="./assets/img/logoblack.jpeg"></img>
+                            <img style="height: 35%; width: 35%;" src="./assets/img/newlogobb.png"></img>
                         </span>
                     </div>
                     <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
@@ -55,26 +58,126 @@
         </nav>
     </section>
 
-    <section data-bs-version="5.1" class="content10 cid-tim3jVgAnR" id="content10-d">
-        <div class="container-fluid">
+    <div class="content">
+
+        <div class="container">
             <div class="row">
-                <center>
-                    <h2 class="mbr-section-title mbr-fonts-style display-2"> Coming Soon... </h2>
-                </center>
+                <style>
+                    .left-column {
+                        float: left;
+                        width: 50%;
+                        padding-right: 20px;
+                    }
+                </style>
+
+                <!-- <div class="left-column">
+                    <div class="mbr-text mbr-fonts-style display-4">
+                        <h3 class="mb-3" style="color: black;">Let's work together</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae sequi, ipsa hic alias
+                            officia facilis
+                            eveniet, neque laborum cumque maxime soluta. Neque atque necessitatibus ipsam sequi soluta
+                            magni, iste vero
+                            fuga inventore, explicabo totam quis quia nemo possimus cupiditate doloribus?</p>
+                    </div>
+                </div> -->
+                <div class="left-column">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <center>
+                                <h2 class="mbr-section-title mbr-fonts-style display-2"> Coming Soon... </h2>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="box">
+                        <h3 class="heading">How Can We Help?</h3>
+                        <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                            <div class="row">
+
+                                <div class="col-md-6 form-group">
+                                    <label for="name" class="mbr-text mbr-fonts-style display-4">Name *</label>
+                                    <input type="text" class="form-control" name="name" id="name"
+                                        placeholder="Your name">
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="name" class="mbr-text mbr-fonts-style display-4">Organization</label>
+                                    <input type="text" class="form-control" name="organization" id="organization"
+                                        placeholder="Your organization">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <label for="email" class="mbr-text mbr-fonts-style display-4">Email *</label>
+                                    <input type="text" class="form-control" name="email" id="email"
+                                        placeholder="Your email address">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <label for="message" class="mbr-text mbr-fonts-style display-4">Project Description
+                                        *</label>
+                                    <textarea class="form-control" name="message" id="message" cols="30"
+                                        rows="7"></textarea>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6 form-group">
+                                    <label for="budget" class="mbr-text mbr-fonts-style display-4">Question
+                                        Subject</label>
+                                    <select class="custom-select" id="budget" name="budget">
+                                        <option selected>Choose...</option>
+                                        <option value="General">
+                                            General Inquiry</option>
+                                        <option value="Product">Product Inquiry</option>
+                                        <option value="Sell">Selling Inquiry</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="message" class="mbr-text mbr-fonts-style display-4">Other</label>
+                                    <input type="text" class="form-control" name="date" id="date"
+                                        placeholder="Example:">
+
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="mbr-text mbr-fonts-style display-4">
+                                    <input type="submit" value="Send Message"
+                                        class="btn btn-block btn-primary rounded-0 py-2 px-4">
+                                    <span class="submitting"></span>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div id="form-message-warning mt-4"></div>
+                        <div id="form-message-success">
+                            Text
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-    </section>
 
-    <section data-bs-version="5.1" class="footer1 cid-tim327Ct6S">
-        <center>
-            <h2 class="mbr-text mbr-fonts-style display-7">Copyright © 2023 Altum Labs | (929) 276-2706 </h2>
-            <a href="your-copyright-link" class="mbr-text mbr-fonts-style display-7">All Rights Reserved</a> |
-            <a href="your-terms-and-conditions-link" class="mbr-text mbr-fonts-style display-7">Terms and Conditions</a>
-            |
-            <a href="your-privacy-policy-link" class="mbr-text mbr-fonts-style display-7">Privacy Policy</a>
-        </center>
-    </section>
+        <!-- <script src="./assets/js/contact/jquery-3.3.1.min.js"></script>
+        <script src="./assets/js/contact/popper.min.js"></script>
+        <script src="./assets/js/contact/bootstrap.min.js"></script>
+        <script src="./assets/js/contact/jquery.validate.min.js"></script>
+        <script src="./assets/js/contact/main.js"></script> -->
+
+        <section data-bs-version="5.1" class="footer1 cid-tim327Ct6S">
+            <center>
+                <h2 class="mbr-text mbr-fonts-style display-7">Copyright © 2023 Altum Labs | (929) 276-2706 </h2>
+                <a href="your-copyright-link" class="mbr-text mbr-fonts-style display-7">All Rights Reserved</a> |
+                <a href="your-terms-and-conditions-link" class="mbr-text mbr-fonts-style display-7">Terms and
+                    Conditions</a>
+                |
+                <a href="your-privacy-policy-link" class="mbr-text mbr-fonts-style display-7">Privacy Policy</a>
+            </center>
+        </section>
 </body>
 
 </html>
