@@ -1542,6 +1542,9 @@ a {
   .cid-tim8TgPnFf {
     background-image: linear-gradient(135deg, #E7D49E, white);
   }
+  .company-logo {
+    display: none;
+  }
 }
 
 /* Hide desktop version on mobile screens */
@@ -1553,6 +1556,21 @@ a {
     background-color: black;
     border-radius: 25px;
     margin: 5px;
+  }
+  .company-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-logo img {
+    padding-right: 10px;
+  }
+  
+  .logo-and-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
 }
 

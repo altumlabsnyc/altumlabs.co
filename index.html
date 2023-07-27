@@ -22,16 +22,25 @@
   <section data-bs-version="5.1" class="menu bistro_menu1 cid-tim2LGbvHv" once="menu" id="menu1-0">
     <nav class="navbar navbar-dropdown navbar-expand-lg">
       <div class="menu_box container-fluid">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse"
-          data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+        <!-- Company logo and hamburger menu -->
+        <div class="logo-and-menu">
+          <div class="company-logo">
+            <a href="index.html">
+              <img style="height: 50%; width: 50%;" src="./assets/img/newlogobb.png" alt="Company Logo">
+            </a>
           </div>
-        </button>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse"
+            data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+        </div>
+        <!-- Rest of the navbar content -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="navbar-brand d-none d-lg-flex">
             <a href="index.html">
@@ -43,7 +52,6 @@
               <a class="nav-link link text-primary display-4" href="about">ABOUT</a>
             </li>
             <li class="nav-item">
-
               <a class="nav-link link text-primary display-4" href="contact">CONTACT</a>
             </li>
             <li class="nav-item">
@@ -285,5 +293,7 @@
     </center>
   </section>
 </body>
-
+<script src = "./assets/js/navbar-dropdown.js"></script>
+<script src = "./assets/js/index.js"></script>
+<script src = "./assets/js/bootstrap.bundle.min.js"></script>
 </html>
