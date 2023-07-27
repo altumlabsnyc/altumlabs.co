@@ -1209,7 +1209,7 @@ a {
 }
 
 .cid-tim2LGbvHv .navbar {
-  min-height: 140px;
+  min-height: 100px;
   padding: 20px 0;
   transition: all 0.3s;
   border-bottom-width: 0px;
@@ -1534,9 +1534,56 @@ a {
 .cid-tim2LGbvHv a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
   background-image: none;
 }
+/* Hide mobile version on desktop screens */
+@media (min-width: 768px) {
+  .mobile-hero-bg {
+    display: none;
+  }
+  .cid-tim8TgPnFf {
+    background-image: linear-gradient(135deg, #E7D49E, white);
+  }
+}
 
-.cid-tim8TgPnFf {
-  background-image: linear-gradient(135deg, #E7D49E, white);
+/* Hide desktop version on mobile screens */
+@media (max-width: 767px) {
+  .header1:not(.mobile-hero-bg) {
+    display: none;
+  }
+  .cid-tim8TgPnFf {
+    background-color: black;
+    border-radius: 25px;
+    margin: 5px;
+  }
+}
+
+.gif-container {
+  width: 120%;
+  height: 120%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Style for the text overlay */
+.text-overlay {
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff; /* Set the text color */
+  text-align: center;
+  width: 80%;
+  /* Add any additional styles you want for the text */
+}
+
+.text-overlay h1 {
+  font-size: 2rem; /* Adjust the font size as needed */
+  margin-bottom: 10px; /* Add margin to separate the heading and paragraph */
+}
+
+.text-overlay p {
+  font-size: 1.2rem; /* Adjust the font size as needed */
 }
 
 .cid-tim8TgPnFf .container-fluid {
